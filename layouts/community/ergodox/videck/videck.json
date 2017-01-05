@@ -36,28 +36,28 @@
     },
     "&\n7\n\nF7",
     {
-      "x": 1,
-      "t": "#ffffff\n\n\n#ac97d8\n\n\n\n#555454"
+      "x": 1
     },
     "(\n9\n\nF9"
   ],
   [
     {
       "y": -0.875,
-      "x": 5.5,
-      "t": "#ffffff\n\n\n#ac97d8"
+      "x": 5.5
     },
     "%\n5\n\nF5",
     {
-      "t": "#ffffff"
+      "t": "#ffffff",
+      "a": 7
     },
-    "home",
+    "",
     {
       "x": 4.5
     },
-    "pgup",
+    "",
     {
-      "t": "#ffffff\n\n\n#ac97d8"
+      "t": "#ffffff\n\n\n#ac97d8",
+      "a": 4
     },
     "^\n6\n\nF6"
   ],
@@ -84,12 +84,12 @@
   [
     {
       "y": -0.375,
-      "x": 3.5,
-      "t": "#ffffff"
+      "x": 3.5
     },
-    "E",
+    "E\n\n\nend",
     {
-      "x": 10.5
+      "x": 10.5,
+      "t": "#ffffff"
     },
     "I"
   ],
@@ -111,7 +111,7 @@
       "x": 1,
       "t": "#ffffff\n\n\n\n\n\n\n\n\n#f8d615"
     },
-    "O\n\n\n\n\n\n\n\n\n{"
+    "O"
   ],
   [
     {
@@ -121,14 +121,18 @@
     },
     "T",
     {
+      "a": 7,
       "h": 1.5
     },
-    "end",
+    "",
     {
       "x": 4.5,
       "h": 1.5
     },
-    "pgdn",
+    "",
+    {
+      "a": 4
+    },
     "Y"
   ],
   [
@@ -142,7 +146,7 @@
       "x": 14.5,
       "t": "#ffffff\n\n\n\n\n\n\n\n\n#f8d615"
     },
-    "P\n\n\n\n\n\n\n\n\n}",
+    "P",
     {
       "t": "#ffffff\n\n\n#ac97d8",
       "w": 1.5
@@ -171,9 +175,10 @@
     "S",
     {
       "x": 1,
+      "t": "#ffffff\n\n\n#ac97d8",
       "n": true
     },
-    "F",
+    "F\n\n\npgdn",
     {
       "x": 8.5,
       "t": "#ffffff\n\n#5eb1e7\n#ac97d8",
@@ -184,7 +189,7 @@
       "x": 1,
       "t": "#ffffff\n\n#5eb1e7\n#ac97d8\n\n\n\n\n\n#f8d615"
     },
-    "L\n\n<i class='fa fa-caret-right'></i>\n<i class='kb kb-Arrows-Right'></i>\n\n\n\n\n\n("
+    "L\n\n<i class='fa fa-caret-right'></i>\n<i class='kb kb-Arrows-Right'></i>"
   ],
   [
     {
@@ -202,21 +207,19 @@
   [
     {
       "y": -0.875,
-      "t": "#f8d615",
-      "a": 6,
+      "t": "#ffffff",
       "w": 1.5
     },
-    "( ) [ ] { }",
+    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>",
     {
-      "t": "#ffffff",
-      "a": 4
+      "t": "#ffffff\n\n\n#ac97d8"
     },
-    "A",
+    "A\n\n\nhome",
     {
       "x": 14.5,
       "t": "#ffffff\n\n\n\n\n\n\n#60605b\n\n#f8d615"
     },
-    ":\n;\n\n\n\n\n\n&Ouml;\n\n)",
+    ":\n;\n\n\n\n\n\n&Ouml;",
     {
       "t": "#ffffff\n\n\n\n\n\n\n#60605b",
       "w": 1.5
@@ -230,17 +233,19 @@
       "t": "#ffffff",
       "h": 1.5
     },
-    "<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>",
+    "ctrl",
     {
       "x": 4.5,
+      "t": "#ac97d8\n\n\n\n\n\n\n#f67f00",
       "h": 1.5
     },
-    "<i class='kb kb-Unicode-DeleteRight-Big'></i>"
+    "<i class='fa fa-arrows'></i>\n\n\n\n\n\n\n2-tap<br/>locks"
   ],
   [
     {
       "y": -0.75,
-      "x": 3.5
+      "x": 3.5,
+      "t": "#ffffff"
     },
     "C",
     {
@@ -266,17 +271,18 @@
       "x": 1,
       "t": "#ffffff\n\n\n\n\n\n\n\n\n#f8d615"
     },
-    ">\n.\n\n\n\n\n\n\n\n["
+    ">\n."
   ],
   [
     {
       "y": -0.875,
       "x": 5.5,
-      "t": "#ffffff"
+      "t": "#ffffff\n\n\n#ac97d8"
     },
-    "B",
+    "B\n\n\npgup",
     {
-      "x": 6.5
+      "x": 6.5,
+      "t": "#ffffff"
     },
     "N"
   ],
@@ -302,7 +308,7 @@
       "t": "#ffffff\n\n\n\n\n\n\n\n\n#f8d615",
       "f": 3
     },
-    "?\n/\n\n\n\n\n\n\n\n]",
+    "?\n/",
     {
       "t": "#ffffff\n\n#f67f00",
       "a": 6,
@@ -316,58 +322,60 @@
       "y": -0.375,
       "x": 3.5,
       "t": "#ffffff",
-      "a": 4
+      "a": 7
     },
-    "\n<i class='kb kb-Multimedia-Volume-Up-2'></i>",
+    "",
     {
-      "x": 10.5,
-      "f": 3
+      "x": 10.5
     },
-    "}\n]"
+    ""
   ],
   [
     {
       "y": -0.875,
-      "x": 2.5
+      "x": 2.5,
+      "a": 4,
+      "fa": [
+        5,
+        4
+      ]
     },
-    "\n<i class='kb kb-Multimedia-Volume-Down-1'></i>",
+    "\n<i class='kb kb-Multimedia-Volume-Up-2'></i>",
     {
-      "x": 1
+      "x": 1,
+      "f": 3
     },
-    "\n<i class='kb kb-Multimedia-Mute-1'></i>",
+    "esc",
     {
       "x": 8.5,
       "t": "#ffffff\n\n\n\n\n\n\n#60605b",
       "f": 3
     },
-    "{\n[\n\n\n\n\n\n&Aring;",
+    "alt",
     {
       "x": 1,
-      "t": "#ffffff",
+      "t": "#ffffff\n\n\n\n\n\n\n#60605b\n\n#60605b",
       "f": 3
     },
-    "+\n="
+    "{\n[\n\n\n\n\n\n&Aring;"
   ],
   [
     {
       "y": -0.75,
       "x": 0.5,
-      "f": 3
+      "t": "#ffffff"
     },
-    "ctrl",
-    {
-      "f": 3
-    },
-    "alt",
+    "\n<i class='kb kb-Multimedia-Mute-2'></i>",
+    "\n<i class='kb kb-Multimedia-Volume-Down-1'></i>",
     {
       "x": 14.5,
       "f": 3
     },
-    "altgr",
+    "}\n]",
     {
       "f": 3
     },
-    "ctrl"
+    "<i class='kb kb-Unicode-DeleteRight-Big'></i>"
   ],
   [
     {
@@ -376,19 +384,22 @@
       "ry": 4.25,
       "y": -1,
       "x": 1,
-      "t": "#ffffff\n\n\n\n\n\n\n\n\n\n#5eb1e7",
+      "t": "#ffffff\n#5eb1e7",
+      "a": 5,
       "f": 3
     },
-    "esc\n\n\n\n\n\n\n\n\n\n<i class='fa fa-mouse-pointer'></i>M",
+    "\n<i class='fa fa-mouse-pointer'></i>M",
     {
       "t": "#ffffff",
+      "a": 7,
       "f": 7
     },
-    "<i class='kb kb-logo-linux-tux'></i>"
+    ""
   ],
   [
     {
       "t": "#ffffff\n\n\n\n\n\n\n\n\n\n#5eb1e7",
+      "a": 4,
       "f": 3,
       "h": 2
     },
@@ -405,9 +416,12 @@
   [
     {
       "x": 2,
-      "t": "#ac97d8"
+      "t": "#ffffff",
+      "fa": [
+        6
+      ]
     },
-    "<i class='fa fa-arrows'></i>"
+    "<i class='kb kb-logo-linux-tux'></i>"
   ],
   [
     {
@@ -415,28 +429,36 @@
       "rx": 13,
       "y": -1,
       "x": -3,
-      "t": "#ffffff"
+      "a": 7
     },
-    "<i class='kb kb-Hamburger-Menu'></i>",
-    "esc"
+    "",
+    {
+      "a": 4,
+      "f": 3
+    },
+    "<i class='kb kb-Hamburger-Menu'></i>"
   ],
   [
     {
-      "x": -3
+      "x": -3,
+      "f": 3
     },
     "ins",
     {
+      "f": 3,
       "h": 2
     },
     "<i class='kb kb-Return-2'></i>",
     {
+      "f": 3,
       "h": 2
     },
     "space"
   ],
   [
     {
-      "x": -3
+      "x": -3,
+      "f": 3
     },
     "scroll<br/>lock"
   ]
